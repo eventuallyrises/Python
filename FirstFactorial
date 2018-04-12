@@ -1,0 +1,14 @@
+def FirstFactorial(num):
+    x = num
+    y = x
+
+    while num > 0:
+        # print(x)
+
+        y *= num-1
+        num=num-1
+        return y
+
+
+
+print(FirstFactorial(4))
